@@ -8,6 +8,7 @@
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
+      <nuxt-link to="test">Go to test</nuxt-link>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -26,6 +27,7 @@
 import AppLogo from '~/components/AppLogo.vue'
 
 export default {
+  middleware: 'log',
   components: {
     AppLogo
   }
