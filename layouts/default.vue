@@ -1,6 +1,14 @@
 <template>
   <div>
-    <nuxt/>
+    <div class="f-left w-100pct h-60px bg-cl-black cl-white f-w-bold f-s-30px t-al-center pd-t-10px">
+      HEADER
+    </div>
+    <div class="f-left w-100pct pd-30px">
+      <nuxt/>
+    </div>
+    <div class="f-left w-100pct h-60px bg-cl-primary cl-white f-w-bold f-s-30px t-al-center pd-t-10px">
+      FOOTER
+    </div>
   </div>
 </template>
 

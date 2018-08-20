@@ -34,6 +34,11 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  
+  // import begeta
+  css: [
+    'begeta/css/begeta.min.css'
+  ]
 }
 
